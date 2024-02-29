@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    width: 100%;
+
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 530px;
+    height: 200px;
+}
+
+.user{
+display: grid;
+margin-left: 30%;
+
+}
+
+input[type="text"]{
+    display: flex;
+    justify-items: center;
+    width: 200px;
+    margin-right: 50px;
+    padding: 5px;
+
+}
+
+.senha{
+    display: grid;
+    margin-left: 30%;
+    margin-top: 60px;
+}
+
+.confirmBtn{
+    justify-content: center;
+    align-items: center;
+    margin-left: 36%;
+}
+
+.confirmBtn a{
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    justify-items: center;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 20px;
+    display: grid;
+    font-size: 25px;
+}
+
+.confirmBtn p{
+    color: red; 
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+
+    input[type="text"] {
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .confirmBtn a {
+        width: 57%;
+    }
+}
+
