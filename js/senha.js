@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (user === 'admin' && senha === 'admin') {
             
-            window.location.href = './pages/pagBranca.html';
+            window.location.href = './pages/pokedex.html';
         } else {
             
             erroMessage.style.display = 'Erro';
